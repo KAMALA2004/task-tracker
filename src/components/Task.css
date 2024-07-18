@@ -1,0 +1,40 @@
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, text-decoration 0.3s ease;
+  }
+  
+  .task.complete {
+    background-color: #e0ffe0;
+    text-decoration: line-through;
+  }
+  
+  .task input[type="text"] {
+    border: none;
+    padding: 20px;
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .task button {
+    background-color: #8b52d5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 2px; 
+    margin-left: 5px;
+  }
+  
+  
+  .task button:hover {
+    background-color: #287bd3;
+  }
+  
